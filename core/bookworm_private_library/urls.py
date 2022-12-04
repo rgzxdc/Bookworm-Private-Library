@@ -20,5 +20,6 @@ from webBookwormPL.views import mainhall, bookshelf
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", mainhall, name='mainhall'),
-    path("bookshelf/", bookshelf, name ='bookshelf'),
+    path("bookshelf", bookshelf, name='bookshelf'),
+    
 ]
