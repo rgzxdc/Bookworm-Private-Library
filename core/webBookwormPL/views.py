@@ -6,6 +6,6 @@ def mainhall(request):
 def bookshelf(request):
     return render(request, 'bookshelf.html')    
 
-    sdakjfhisahf sdfsd
+
 
 # Create your views here.

@@ -55,7 +55,7 @@ ROOT_URLCONF = "bookworm_private_library.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": ['htmlTemplates'],
+        "DIRS": ["htmlTemplates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
