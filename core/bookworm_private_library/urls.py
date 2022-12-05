@@ -15,11 +15,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from webBookwormPL.views import mainhall, bookshelf
+from webBookwormPL.views import mainhall, bookshelf, bookentry
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", mainhall, name='mainhall'),
     path("bookshelf", bookshelf, name='bookshelf'),
+    path("bookentry",bookentry, name='bookentry'),
+
+
     
 ]
